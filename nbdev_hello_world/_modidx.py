@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://javastarchild.github.io',
                 'git_url': 'https://github.com/javastarchild/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.KRcore': { 'nbdev_hello_world.KRcore.foo': ('krcore.html#foo', 'nbdev_hello_world/KRcore.py'),
+                                          'nbdev_hello_world.KRcore.say_hello': ('krcore.html#say_hello', 'nbdev_hello_world/KRcore.py')},
+            'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
